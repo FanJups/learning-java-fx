@@ -31,3 +31,7 @@ https://mvnrepository.com/artifact/org.openjfx/javafx-archetype-fxml/0.0.3
 # AwesomeJavaFX
 
 https://github.com/mhrimaz/AwesomeJavaFX
+
+# JavaFX Weekly
+
+https://paper.li/net0pyr/1312275601#/
