@@ -11,3 +11,15 @@ https://openjfx.io/openjfx-docs/#maven
 # HelloFx
 
 https://github.com/openjfx/samples/tree/master/HelloFX/Maven
+
+# openjfx
+
+https://github.com/openjfx
+
+https://github.com/openjfx/javafx-maven-plugin
+
+https://github.com/openjfx/samples
+
+https://github.com/openjfx/openjfx-docs
+
+https://github.com/openjfx/javafx-maven-archetypes
