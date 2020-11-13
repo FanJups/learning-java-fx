@@ -27,3 +27,7 @@ https://github.com/openjfx/javafx-maven-archetypes
 # javafx-archetype-fxml repository url
 
 https://mvnrepository.com/artifact/org.openjfx/javafx-archetype-fxml/0.0.3
+
+# AwesomeJavaFX
+
+https://github.com/mhrimaz/AwesomeJavaFX
