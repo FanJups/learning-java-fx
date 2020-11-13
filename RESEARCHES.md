@@ -7,3 +7,7 @@ https://ducmanhphan.github.io/2019-10-17-Creating-JavaFX-project-with-Maven/
 https://openjfx.io/openjfx-docs/maven
 
 https://openjfx.io/openjfx-docs/#maven
+
+# HelloFx
+
+https://github.com/openjfx/samples/tree/master/HelloFX/Maven
