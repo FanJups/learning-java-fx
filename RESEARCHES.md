@@ -23,3 +23,7 @@ https://github.com/openjfx/samples
 https://github.com/openjfx/openjfx-docs
 
 https://github.com/openjfx/javafx-maven-archetypes
+
+# javafx-archetype-fxml repository url
+
+https://mvnrepository.com/artifact/org.openjfx/javafx-archetype-fxml/0.0.3
