@@ -35,3 +35,7 @@ https://github.com/mhrimaz/AwesomeJavaFX
 # JavaFX Weekly
 
 https://paper.li/net0pyr/1312275601#/
+
+# javafx-examples
+
+https://github.com/jjenkov/javafx-examples
