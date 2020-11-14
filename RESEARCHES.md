@@ -39,3 +39,7 @@ https://paper.li/net0pyr/1312275601#/
 # javafx-examples
 
 https://github.com/jjenkov/javafx-examples
+
+# youtube javafx  realworld examples
+
+https://www.youtube.com/playlist?list=PLUuxQkXkh-hiVY0lRIX3hWb3jCy7PLB-K
