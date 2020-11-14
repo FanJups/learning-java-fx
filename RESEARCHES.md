@@ -57,3 +57,15 @@ http://tutorials.jenkov.com/javafx/tableview.html
 https://www.google.com/search?sxsrf=ALeKk00zRtsaW8UBGmrA6gk1B0FQhpHNGw%3A1605388002182&ei=4kawX7nWCsK2kwWL75qYBA&q=table+view+java+fx+fxml&oq=table+view+java+fx+fxml&gs_lcp=CgZwc3ktYWIQAzIECAAQDTIGCAAQDRAeMggIABANEAUQHjIICAAQCBANEB4yCAgAEAgQDRAeMggIABAIEA0QHjIICAAQCBANEB4yCAgAEAgQDRAeMggIABAIEA0QHjIICAAQCBANEB46BAgAEEdQn84eWJfdHmCT4R5oAHADeACAAZcLiAGJFZIBBzUtMS4xLjGYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwi5z-Ks-ILtAhVC26QKHYu3BkMQ4dUDCA0&uact=5
 
 https://docs.oracle.com/javafx/2/fxml_get_started/fxml_tutorial_intermediate.htm
+
+# javafx tableview database
+
+https://www.google.com/search?sxsrf=ALeKk03cInjHQ6IYvEaojx9Uho9m9NH6Ag%3A1605388526069&ei=7kiwX5ncA8f5kgWI2YuwBA&q=javafx+tableview+database&oq=table+view+java+fx+fxml&gs_lcp=CgZwc3ktYWIQARgDMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHUABYAGDYhA5oAHAEeACAAQCIAQCSAQCYAQCqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab
+
+https://stackoverflow.com/questions/18941093/how-to-fill-up-a-tableview-with-database-data
+
+http://tutorials.jenkov.com/javafx/tableview.html#add-data-to-tableview
+
+https://blog.ngopal.com.np/2011/10/19/dyanmic-tableview-data-from-database/
+
+
