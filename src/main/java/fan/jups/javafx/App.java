@@ -4,8 +4,11 @@ import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.scene.Scene;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.Toggle;
+import javafx.scene.control.ToggleButton;
+import javafx.scene.control.ToggleGroup;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -15,46 +18,41 @@ import javafx.stage.Stage;
 public class App extends Application {
 
 	// Create the Selection Label
-	Label selectionMsg = new Label("Choose your Car");
+	Label selectionMsg = new Label("Your selection: None");
 
 	@Override
 	public void start(Stage stage) {
 
-		// Create a CheckBox to support only two states
-		CheckBox fordCbx = new CheckBox("Ford");
-		// Create a CheckBox to support three states
-		CheckBox audiCbx = new CheckBox("Audi");
-		audiCbx.setAllowIndeterminate(true);
-		// Add a ChangeListener to the CheckBox fordCbx
-		fordCbx.selectedProperty().addListener(new ChangeListener<Boolean>() {
-			public void changed(ObservableValue<? extends Boolean> ov, final Boolean value, final Boolean newValue) {
-				if (newValue != null && newValue) {
-					printMessage("Your Selection: Ford");
-				}
+		// Create four ToggleButtons
+		ToggleButton fordBtn = new ToggleButton("Ford");
+		ToggleButton audiBtn = new ToggleButton("Audi");
+		ToggleButton ferrariBtn = new ToggleButton("Ferrari");
+		ToggleButton porscheBtn = new ToggleButton("Porsche");
+		// Create a ToggleGroup
+		final ToggleGroup group = new ToggleGroup();
+		// Add all ToggleButtons to a ToggleGroup
+		group.getToggles().addAll(fordBtn, audiBtn, ferrariBtn, porscheBtn);
+		// Create a ChangeListener for the ToggleGroup
+		group.selectedToggleProperty().addListener(new ChangeListener<Toggle>() {
+			public void changed(ObservableValue<? extends Toggle> ov, final Toggle toggle, final Toggle new_toggle) {
+				String toggleBtn = ((ToggleButton) new_toggle).getText();
+				selectionMsg.setText("Your selection: " + toggleBtn);
 			}
 		});
-		// Add a ChangeListener to the CheckBox audiCbx
-		audiCbx.selectedProperty().addListener(new ChangeListener<Boolean>() {
-			public void changed(ObservableValue<? extends Boolean> ov, final Boolean value, final Boolean newValue) {
-				if (newValue != null && newValue) {
-					printMessage("Your Selection: Audi");
-				}
-			}
-		});
-		// Add a ChangeListener to the CheckBox audiCbx
-		audiCbx.indeterminateProperty().addListener(new ChangeListener<Boolean>() {
-			public void changed(ObservableValue<? extends Boolean> ov, final Boolean value, final Boolean newValue) {
-				if (newValue != null && newValue) {
-					printMessage("Your indeterminate Selection: Audi");
-				}
-			}
-		});
+		// Create the Label for the Selection
+		Label selectLbl = new Label("Select the car you like:");
+		// Create a HBox
+		HBox buttonBox = new HBox();
+		// Add ToggleButtons to an HBox
+		buttonBox.getChildren().addAll(fordBtn, audiBtn, ferrariBtn, porscheBtn);
+		// Set the spacing between children to 10px
+		buttonBox.setSpacing(10);
 		// Create the VBox
 		VBox root = new VBox();
-		// Add the children to the VBox
-		root.getChildren().addAll(selectionMsg, fordCbx, audiCbx);
-		// Set the vertical spacing between children to 20px
-		root.setSpacing(20);
+		// Add the Labels and HBox to the VBox
+		root.getChildren().addAll(selectionMsg, selectLbl, buttonBox);
+		// Set the spacing between children to 10px
+		root.setSpacing(10);
 		// Set the Size of the VBox
 		root.setMinSize(350, 250);
 		/*
@@ -69,7 +67,7 @@ public class App extends Application {
 		// Add the scene to the Stage
 		stage.setScene(scene);
 		// Set the title of the Stage
-		stage.setTitle("A CheckBox Example");
+		stage.setTitle("A ToggleButton Example");
 		// Display the Stage
 		stage.show();
 	}
