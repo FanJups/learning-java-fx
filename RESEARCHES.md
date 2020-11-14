@@ -51,3 +51,9 @@ https://www.google.com/search?q=table+view+java+fx&oq=table+view+java+fx&aqs=chr
 https://docs.oracle.com/javafx/2/ui_controls/table-view.htm
 
 http://tutorials.jenkov.com/javafx/tableview.html
+
+# table view java fx fxml
+
+https://www.google.com/search?sxsrf=ALeKk00zRtsaW8UBGmrA6gk1B0FQhpHNGw%3A1605388002182&ei=4kawX7nWCsK2kwWL75qYBA&q=table+view+java+fx+fxml&oq=table+view+java+fx+fxml&gs_lcp=CgZwc3ktYWIQAzIECAAQDTIGCAAQDRAeMggIABANEAUQHjIICAAQCBANEB4yCAgAEAgQDRAeMggIABAIEA0QHjIICAAQCBANEB4yCAgAEAgQDRAeMggIABAIEA0QHjIICAAQCBANEB46BAgAEEdQn84eWJfdHmCT4R5oAHADeACAAZcLiAGJFZIBBzUtMS4xLjGYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwi5z-Ks-ILtAhVC26QKHYu3BkMQ4dUDCA0&uact=5
+
+https://docs.oracle.com/javafx/2/fxml_get_started/fxml_tutorial_intermediate.htm
