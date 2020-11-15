@@ -68,4 +68,10 @@ http://tutorials.jenkov.com/javafx/tableview.html#add-data-to-tableview
 
 https://blog.ngopal.com.np/2011/10/19/dyanmic-tableview-data-from-database/
 
+# fxml image url
+
+https://www.google.com/search?q=fxml+image+url&oq=fxml+image&aqs=chrome.2.69i57j0j0i22i30l6.5207j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/32483426/url-path-for-an-imageview-using-javafx-and-maven
+
 
