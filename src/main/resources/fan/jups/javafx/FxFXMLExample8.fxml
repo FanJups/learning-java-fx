@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?language JavaScript?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.geometry.Pos?>
 
 <VBox fx:id="vbox" layoutX="10.0" layoutY="10.0" prefHeight="250.0" prefWidth="300.0"  
 spacing="10" xmlns:fx="https://javafx.com/fxml/1" xmlns="https://javafx.com/javafx/8.0.171" fx:controller="fan.jups.javafx.controller.FxFXMLController">
@@ -16,17 +18,22 @@ spacing="10" xmlns:fx="https://javafx.com/fxml/1" xmlns="https://javafx.com/java
 		-fx-border-color: #1d1d1d;
 	</style>
 	
+	<alignment><Pos fx:constant="CENTER_LEFT" fx:id="alignCenter"/></alignment>
+	
 		
 	<children>
 	
-		<fx:include source="FXFXML/FxFXMLLabel.fxml" fx:id="inputLbl" text="Please insert Your Input here:"/>
+		<Label fx:id="inputLbl" alignment="$alignCenter" cache="true" cacheHint="SCALE" prefHeight="30.0" prefWidth="200.0" text="%input" />
 		
 		<TextField fx:id="inputText" prefWidth="100.0" />
 		
-		<fx:include source="FXFXML/FxFXMLLabel.fxml" fx:id="outputLbl" text="Your Input:"/>
+		<Button fx:id="okBtn" alignment="$alignCenter" mnemonicParsing="false" onAction="#printOutput" text="OK" />
 		
-		<TextArea fx:id="outputText" text="${inputText.text}" prefHeight="100.0" prefWidth="100.0" />		
-						
+		<Label fx:id="outputLbl" alignment="$alignCenter" cache="true" cacheHint="SCALE" prefHeight="30.0" prefWidth="200.0" text="%output" />
+		
+		<TextArea fx:id="outputText" prefHeight="100.0" prefWidth="200.0" wrapText="true" />	
+		
+							
 	</children>
 	
 	

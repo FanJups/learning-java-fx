@@ -1,11 +1,13 @@
 package fan.jups.javafx;
 
 import java.io.IOException;
+import java.util.Locale;
+import java.util.ResourceBundle;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
@@ -13,24 +15,21 @@ import javafx.stage.Stage;
  */
 public class App extends Application {
 
-	private static Scene scene;
-
 	@Override
 	public void start(Stage stage) throws IOException {
 
-		scene = new Scene(loadFXML("FxFXMLExample7"));
+		FXMLLoader fxmlLoader = new FXMLLoader();
+		fxmlLoader.setResources(ResourceBundle.getBundle("Labels", new Locale("de")));
+		VBox root = (VBox) fxmlLoader.load(this.getClass().getResource("FxFXMLExample8.fxml").openStream());
+		// replace the content
+		// Create the Scene
+		Scene scene = new Scene(root);
+		// Set the Scene to the Stage
 		stage.setScene(scene);
-		stage.setTitle("A FXML Example with Binding Properties");
+		// Set the Title to the Stage
+		stage.setTitle("A FXML Example using Resource Bundles");
+		// Display the Stage
 		stage.show();
-	}
-
-	static void setRoot(String fxml) throws IOException {
-		scene.setRoot(loadFXML(fxml));
-	}
-
-	private static Parent loadFXML(String fxml) throws IOException {
-		FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
-		return fxmlLoader.load();
 	}
 
 	public static void main(String[] args) {
