@@ -90,4 +90,16 @@ https://fxdocs.github.io/docs/index.html#_pagination
 
 https://stackoverrun.com/fr/q/4163962
 
+# alert javafx
+
+https://www.google.com/search?q=alert+javafx&oq=alert+javafx+&aqs=chrome..69i57j0i19j0i19i22i30l6.27460j0j7&sourceid=chrome&ie=UTF-8
+
+https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Alert.html
+
+geeksforgeeks.org/javafx-alert-with-examples/
+
+https://stackoverflow.com/questions/8309981/how-to-create-and-show-common-dialog-error-warning-confirmation-in-javafx-2
+
+https://thecodinginterface.com/blog/javafx-alerts-and-dialogs/
+
 
