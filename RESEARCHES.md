@@ -74,4 +74,20 @@ https://www.google.com/search?q=fxml+image+url&oq=fxml+image&aqs=chrome.2.69i57j
 
 https://stackoverflow.com/questions/32483426/url-path-for-an-imageview-using-javafx-and-maven
 
+# database results pagination javafx fxml
+
+https://www.google.com/search?q=database+results+pagination+javafx+fxml&oq=database+results+pagination+javafx+fxml&aqs=chrome..69i57.35064j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/50760365/pagination-in-javafx-scenebuilder-with-tableview
+
+https://docs.oracle.com/javafx/2/ui_controls/pagination.htm
+
+https://docs.oracle.com/javafx/2/ui_controls/table-view.htm
+
+http://tutorials.jenkov.com/javafx/pagination.html
+
+https://fxdocs.github.io/docs/index.html#_pagination
+
+https://stackoverrun.com/fr/q/4163962
+
 
