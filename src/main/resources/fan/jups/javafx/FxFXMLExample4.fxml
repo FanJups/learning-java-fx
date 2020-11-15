@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?language JavaScript?>
+
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
@@ -20,19 +20,15 @@ spacing="10" xmlns:fx="https://javafx.com/fxml/1" xmlns="https://javafx.com/java
 	
 	<children>
 	
-		<Label fx:id="inputLbl" alignment="CENTER_LEFT" cache="true" cacheHint="SCALE"  
-		prefHeight="30.0" prefWidth="200.0" text="Please insert Your Input here:"  
-		textAlignment="LEFT" />
+		<fx:include source="FXFXML/FxFXMLLabel.fxml" fx:id="inputLbl" text="Please insert Your Input here:"/>
 		
 		<TextField fx:id="inputText" prefWidth="100.0" />
 		
-		<Button fx:id="okBtn" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing=  
-		"false" onAction="#printOutput" text="OK" textAlignment="CENTER" />
+		<fx:include source="FXFXML/FxFXMLButton.fxml" fx:id="okBtn" text="OK" onAction="#printOutput" />
 		
-		<Label fx:id="outputLbl" alignment="CENTER_LEFT" cache="true" cacheHint="SCALE"  
-		prefHeight="30.0" prefWidth="200.0" text="Your Input:" textAlignment="LEFT" />
-		
-		<TextArea fx:id="outputText" prefHeight="100.0" prefWidth="200.0" wrapText="true" />
+		<fx:include source="FXFXML/FxFXMLLabel.fxml" fx:id="outputLbl" text="Your Input:"/>
+				
+		<TextArea fx:id="outputText" prefHeight="100.0" prefWidth="100.0" />
 		
 				
 	</children>

@@ -1,0 +1,3 @@
+<?import javafx.scene.control.*?>
+<Button alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" textAlignment="CENTER" />
+

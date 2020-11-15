@@ -1,0 +1,6 @@
+<?import javafx.scene.control.*?>
+<?import java.lang.Integer?>
+
+
+<Label alignment="CENTER_LEFT" cache="true" cacheHint="SCALE" prefHeight="30.0" prefWidth="200.0" textAlignment="$position" />
+
