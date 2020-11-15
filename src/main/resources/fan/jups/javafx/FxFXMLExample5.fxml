@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 
 <VBox fx:id="vbox" layoutX="10.0" layoutY="10.0" prefHeight="250.0" prefWidth="300.0"  
 spacing="10" xmlns:fx="https://javafx.com/fxml/1" xmlns="https://javafx.com/javafx/8.0.171" fx:controller="fan.jups.javafx.controller.FxFXMLController">
@@ -18,18 +17,21 @@ spacing="10" xmlns:fx="https://javafx.com/fxml/1" xmlns="https://javafx.com/java
 		-fx-border-color: #1d1d1d;
 	</style>
 	
+	<fx:define>
+	
+		<Image url="@FXFXML/terrain.jpg" fx:id="basketballCourtImg"/>
+	
+	</fx:define>
+	
 	<children>
 	
-		<fx:include source="FXFXML/FxFXMLLabel.fxml" fx:id="inputLbl" text="Please insert Your Input here:"/>
+		<fx:include source="FXFXML/FxFXMLLabel.fxml" fx:id="basketballCourtLbl" text="The Basketball Court Image"/>
 		
-		<TextField fx:id="inputText" prefWidth="100.0" />
-		
-		<fx:include source="FXFXML/FxFXMLButton.fxml" fx:id="okBtn" text="OK" onAction="#printOutput" />
-		
-		<fx:include source="FXFXML/FxFXMLLabel.fxml" fx:id="outputLbl" text="Your Input:"/>
-				
-		<TextArea fx:id="outputText" prefHeight="100.0" prefWidth="100.0" />
-		
+		<ImageView fx:id="view">
+			<image>
+				<fx:reference source="basketballCourtImg"/>
+			</image>
+		</ImageView>		
 				
 	</children>
 	
