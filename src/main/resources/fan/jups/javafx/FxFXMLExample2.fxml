@@ -15,17 +15,35 @@ spacing="10" xmlns:fx="https://javafx.com/fxml/1" xmlns="https://javafx.com/java
 		-fx-border-width: 2;
 		-fx-border-insets: 5;
 		-fx-border-radius: 5;
-		-fx-border-color: blue;
+		-fx-border-color: #1d1d1d;
 	</style>
+	
 	<children>
+	
 		<Label fx:id="inputLbl" alignment="CENTER_LEFT" cache="true" cacheHint="SCALE"  
 		prefHeight="30.0" prefWidth="200.0" text="Please insert Your Input here:"  
 		textAlignment="LEFT" />
+		
 		<TextField fx:id="inputText" prefWidth="100.0" />
+		
 		<Button fx:id="okBtn" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing=  
-		"false" text="OK" textAlignment="CENTER" />
+		"false" onAction="printOutput();" text="OK" textAlignment="CENTER" />
+		
 		<Label fx:id="outputLbl" alignment="CENTER_LEFT" cache="true" cacheHint="SCALE"  
 		prefHeight="30.0" prefWidth="200.0" text="Your Input:" textAlignment="LEFT" />
+		
 		<TextArea fx:id="outputText" prefHeight="100.0" prefWidth="200.0" wrapText="true" />
+		
+		<fx:script>
+		
+			function printOutput()
+			{
+				outputText.setText(inputText.getText());
+			}
+		
+		</fx:script>
+		
 	</children>
+	
+	
 </VBox>
