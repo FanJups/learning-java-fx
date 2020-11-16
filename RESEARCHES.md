@@ -102,4 +102,12 @@ https://stackoverflow.com/questions/8309981/how-to-create-and-show-common-dialog
 
 https://thecodinginterface.com/blog/javafx-alerts-and-dialogs/
 
+# Adding TableView to a pagination javafx
+
+https://www.google.com/search?q=Adding+TableView+to+a+pagination+javafx&oq=Adding&aqs=chrome.1.69i57j69i59j0j46j0l3j69i60.10367j0j7&sourceid=chrome&ie=UTF-8
+
+https://gist.github.com/timbuethe/7becdc4556225e7c5b7b
+
+https://stackoverflow.com/questions/15349185/javafx-tableview-paginator
+
 
