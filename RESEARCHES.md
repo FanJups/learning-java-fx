@@ -96,7 +96,7 @@ https://www.google.com/search?q=alert+javafx&oq=alert+javafx+&aqs=chrome..69i57j
 
 https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Alert.html
 
-geeksforgeeks.org/javafx-alert-with-examples/
+https://geeksforgeeks.org/javafx-alert-with-examples/
 
 https://stackoverflow.com/questions/8309981/how-to-create-and-show-common-dialog-error-warning-confirmation-in-javafx-2
 
@@ -109,5 +109,15 @@ https://www.google.com/search?q=Adding+TableView+to+a+pagination+javafx&oq=Addin
 https://gist.github.com/timbuethe/7becdc4556225e7c5b7b
 
 https://stackoverflow.com/questions/15349185/javafx-tableview-paginator
+
+# regex to validate date format mm/dd/yyyy in java
+
+https://www.google.com/search?sxsrf=ALeKk03qw5BSkdy8L5-zyASwVlm1wsFi5A%3A1605572250250&ei=mhazX4XVDoOo1fAP-b6GwAU&q=regex+to+validate+date+format+mm%2Fdd%2Fyyyy+in+java&oq=regex+date+java+dd%2Fmm%2Fyyyy&gs_lcp=CgZwc3ktYWIQARgAMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeOgQIABBHOgYIABAWEB46CAgAEAgQBxAeUIQzWPm-AmCx5gJoAHACeACAAZ8ViAGLM5IBDTItNS40LjctMS4wLjGYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab
+
+https://mkyong.com/regular-expressions/how-to-validate-date-with-regular-expression/
+
+https://stackoverflow.com/questions/2149680/regex-date-format-validation-on-java
+
+https://www.regular-expressions.info/dates.html#:~:text=To%20match%20a%20date%20in,%5D)%5B%2D%20%2F.%5D
 
 
