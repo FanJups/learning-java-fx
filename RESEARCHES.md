@@ -126,4 +126,6 @@ https://www.google.com/search?q=add+autocomplete+to+custom+combobox+javafx+13&oq
 
 https://www.techgalery.com/2019/08/javafx-combo-box-with-search.html
 
+https://openjfx.io/javadoc/13/javafx.controls/javafx/scene/control/ComboBox.html
+
 
