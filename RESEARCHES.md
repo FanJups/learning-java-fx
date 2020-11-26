@@ -120,4 +120,10 @@ https://stackoverflow.com/questions/2149680/regex-date-format-validation-on-java
 
 https://www.regular-expressions.info/dates.html#:~:text=To%20match%20a%20date%20in,%5D)%5B%2D%20%2F.%5D
 
+# add autocomplete to custom combobox javafx 13
+
+https://www.google.com/search?q=add+autocomplete+to+custom+combobox+javafx+13&oq=add+autocomplete+to+custom+combobox+javafx+13&aqs=chrome..69i57.35653j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.techgalery.com/2019/08/javafx-combo-box-with-search.html
+
 
