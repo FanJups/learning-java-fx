@@ -128,4 +128,18 @@ https://www.techgalery.com/2019/08/javafx-combo-box-with-search.html
 
 https://openjfx.io/javadoc/13/javafx.controls/javafx/scene/control/ComboBox.html
 
+# javafx how to style a line of table view with null values
+
+https://www.google.com/search?q=javafx+how+to+style+a+line+of+table+view+with+null+values&oq=javafx+how&aqs=chrome.1.69i57j35i39j0i19l5j69i60.15187j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/49625102/javafx-how-to-hide-empty-column-cell-in-tableview
+
+https://openjfx.io/javadoc/14/javafx.controls/javafx/scene/control/TableView.html
+
+https://openjfx.io/javadoc/14/javafx.controls/javafx/scene/control/TableView.html#rowFactoryProperty()
+
+https://openjfx.io/javadoc/14/javafx.base/javafx/util/Callback.html
+
+
+
 
