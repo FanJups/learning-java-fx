@@ -140,6 +140,11 @@ https://openjfx.io/javadoc/14/javafx.controls/javafx/scene/control/TableView.htm
 
 https://openjfx.io/javadoc/14/javafx.base/javafx/util/Callback.html
 
+# styling javafx tablerow with null values
+
+https://www.google.com/search?q=styling+javafx+tablerow+with+null+values&oq=styling+javafx+tablerow+with+null+values&aqs=chrome..69i57.18393j1j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/30889732/javafx-tableview-change-row-color-based-on-column-value
 
 
 
