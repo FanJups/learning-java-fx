@@ -146,5 +146,15 @@ https://www.google.com/search?q=styling+javafx+tablerow+with+null+values&oq=styl
 
 https://stackoverflow.com/questions/30889732/javafx-tableview-change-row-color-based-on-column-value
 
+# application.properties for javafx apps
+
+https://www.google.com/search?q=application.properties+for+javafx+apps&oq=application.properties+for+javafx+apps&aqs=chrome..69i57j33i160.16719j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/32570486/fxml-reading-value-from-properties
+
+https://www.vojtechruzicka.com/javafx-spring-boot/
+
+
+
 
 
